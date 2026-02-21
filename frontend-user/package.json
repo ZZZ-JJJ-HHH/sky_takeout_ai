@@ -1,0 +1,38 @@
+{
+  "name": "sky-takeout-frontend-user",
+  "version": "1.0.0",
+  "description": "苍穹外卖用户端前端",
+  "author": "Sky Takeout Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "vant": "^4.8.0",
+    "@vant/icons": "^1.8.0",
+    "axios": "^1.6.2",
+    "js-cookie": "^3.0.5",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25",
+    "@types/node": "^20.10.4",
+    "@types/js-cookie": "^3.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "tailwindcss": "^3.3.6"
+  }
+}

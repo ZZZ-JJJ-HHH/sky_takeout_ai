@@ -1,9 +1,6 @@
-package com.sky.takeout;
+package com.sky.takeout.common;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.util.DigestUtils;
-
-import java.nio.charset.StandardCharsets;
 
 public class BCrypt {
     public static void main(String[] args) {
