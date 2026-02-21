@@ -1,0 +1,49 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: sky-takeout-server
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sky_takeout?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&connectionCollation=utf8mb4_unicode_ci
+    username: root
+    password: root123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+security:
+  jwt:
+    secret: "sky-takeout-secret-please-change" # 实际环境请替换为更安全的随机串
+    expire-seconds: 86400 # 1 天
+    token-prefix: "Bearer"
+    header: "Authorization"
+
+# Knife4j 配置
+knife4j:
+  enable: true
+  production: false  # 生产环境设为true以禁用
+  basic:
+    enable: false     # 是否启用基础认证
+  setting:
+    language: zh_cn   # 中文界面
