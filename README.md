@@ -114,13 +114,13 @@ npm run dev
 ## 📚 文档导航
 
 ### 🎯 开发者必读
-- [`docs/common/AI开发指引.md`](./docs/common/AI开发指引.md) - AI助手专用开发指引
-- [`docs/系统设计/苍穹外卖系统设计文档.md`](./docs/系统设计/苍穹外卖系统设计文档.md) - 系统总体架构设计
-- [`docs/约束规范/约束规范文档.md`](./docs/约束规范/约束规范文档.md) - 技术规范与编码标准
+- [`docs/common/AI开发指引.md`](docs/backend/AI开发指引.md) - AI助手专用开发指引
+- [`docs/系统设计/苍穹外卖系统设计文档.md`](docs/backend/系统设计/苍穹外卖系统设计文档.md) - 系统总体架构设计
+- [`docs/约束规范/约束规范文档.md`](docs/backend/约束规范/约束规范文档.md) - 技术规范与编码标准
 
 ### 🖥 后端开发
 - [`docs/backend/`](./docs/backend/) - 后端专用文档目录
-- [`docs/业务模块详细设计/`](./docs/业务模块详细设计/) - 各业务模块详细设计
+- [`docs/业务模块详细设计/`](docs/backend/业务模块详细设计/) - 各业务模块详细设计
 
 ### 🎨 前端开发
 - [`docs/frontend/前端项目说明.md`](./docs/frontend/前端项目说明.md) - 前端项目通用说明

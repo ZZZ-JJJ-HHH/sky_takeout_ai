@@ -8,13 +8,13 @@ USE sky_takeout;
 -- 基础员工数据
 -- =========================
 
--- 管理员账号（密码：admin123）
+-- 管理员账号（密码：admin）
 INSERT INTO employee (username, password, name, phone, status, role, create_time, update_time) 
-VALUES ('admin', '$2a$10$rV2.EzQhOyDkYbGzZmRj.eJ7KzW8N9P0Q1R2S3T4U5V6W7X8Y9Za', '系统管理员', '13800138000', 1, 'ADMIN', NOW(), NOW());
+VALUES ('admin', '$2a$10$UOlvEWOqj0kui1xdeLl1uemJ7QCMZPR03.fmLCB9nb9.1GXsLHG22', '系统管理员', '13800138000', 1, 'ADMIN', NOW(), NOW());
 
--- 普通员工账号（密码：employee123）
+-- 普通员工账号（密码：unknow）
 INSERT INTO employee (username, password, name, phone, status, role, create_time, update_time) 
-VALUES ('employee', '$2a$10$sW3.F0R4S5T6U7V8W9X0Y1Z2.a3B4C5D6E7F8G9H0I1J2K3L4M5N6O7P8', '张三', '13800138001', 1, 'EMPLOYEE', NOW(), NOW());
+VALUES ('employee', '$2a$10$4B5C6D7E8F9G0H1I2J3K4L5M6N7O8P9Q0R1S2T3U4V5W6X7Y8Z9a0b1c2', '张三', '13800138001', 1, 'EMPLOYEE', NOW(), NOW());
 
 -- =========================
 -- 基础分类数据
